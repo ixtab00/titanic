@@ -5,7 +5,7 @@ import os
 
 IGNORE = ['PassengerId', 'Survived', 'Name', 'Fare']
 ENCODE_IGNORE = ['Age']
-IN_COUNT = ['Parch', 'Pclass', 'SibSp', 'Age', 'Sex']
+IN_COUNT = ['Parch', 'Pclass', 'SibSp', 'Age', 'Sex', 'Cabin']
 
 def read(file: str) -> List:
     with open(file) as file:
